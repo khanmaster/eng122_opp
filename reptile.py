@@ -16,3 +16,11 @@ class Reptile(Animal): # write the name of the class in (parent-class) to inheri
 
     def hunt(self):
         return "working hard to catch a next meal "
+
+# create object of reptile class
+
+reptile_object = Reptile()
+
+#print(reptile_object.eat())
+#print(reptile_object.hunt())
+# let's move onto Encapsulation
